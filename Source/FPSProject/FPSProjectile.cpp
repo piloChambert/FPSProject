@@ -28,7 +28,7 @@ AFPSProjectile::AFPSProjectile()
 	ProjectileMovementComponent->bRotationFollowsVelocity = true;
 	ProjectileMovementComponent->bShouldBounce = true;
 	ProjectileMovementComponent->Bounciness = 0.3f;
-
+	
 	// Die after 3 seconds.
 	InitialLifeSpan = 3.0f;
 
